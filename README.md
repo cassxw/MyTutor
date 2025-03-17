@@ -24,7 +24,7 @@
 [Vaadin](https://vaadin.com/) is a Java-based web framework that simplifies building **modern, interactive UIs** without requiring extensive JavaScript or frontend coding. Unlike traditional web frameworks that rely on HTML and JavaScript, **Vaadin allows developers to create full-stack applications using only Java**. It is particularly useful for business applications where maintainability and security are priorities.
 
 ### 🔹 Why Vaadin for MyTutor?
-- **Full-stack Java development** - No need for additional frontend technologies like React or Angular.
+- **Full-Stack Java development** - No need for additional frontend technologies like React or Angular.
 - **Secure & Stateful UI** - Reduces security risks by managing UI state on the server side.
 - **Rapid Prototyping** - Faster UI development with pre-built components and themes.
 - **Excellent Integration with Spring Boot** - Seamlessly connects to backend services and databases.
