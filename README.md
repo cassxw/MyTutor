@@ -88,7 +88,7 @@ Use the following test accounts to explore different user roles:
 💡 **Note:** The installation process may take some time due to dependency resolution.
 
 ## 📑 Additional Documentation
-For more details on the **design process, software architecture, system diagrams, and much more**, refer to our project report:
+For more details on the **design process, software architecture, system diagrams, and much more**, refer to our project report:  
 📄 **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf**
 
 ---
