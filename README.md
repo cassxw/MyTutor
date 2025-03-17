@@ -3,11 +3,13 @@
 ## 📌 Project Overview
 **MyTutor** is a web-based application designed to modernise Tutor and Teaching Assistant (TA) management at the **University of Cape Town (UCT)**. It streamlines the application process, improves scheduling, and enhances administrative workflows. The system is built with **Java, Vaadin, and Spring Boot**, ensuring a **scalable, modular, and secure** solution for course administrators, lecturers, and students.
 
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/9c61fe16-fc9b-4c64-bb57-83848e639e79)
+
 ### 🔹 Key Features
 - 🔐 **User Roles & Authentication** - Secure login for administrators, lecturers, tutors, and students.
 - 📄 **Tutor & TA Applications** - Students can apply for positions with an intuitive interface.
-- 📅 **Automated Scheduling** - Efficiently manage tutor assignments and schedules.
-- 📧 **Email Notifications** - Automatic email updates for application status and password management.
+- 📅 **Easy-to-Use Scheduling** - Efficiently manage tutor assignments and schedules.
 - ⚙️ **Robust Admin Management** - Course convenors can monitor tutor performance and allocate responsibilities.
 - 🏗️ **Scalability & Modularity** - Designed for easy expansion and integration with existing UCT systems.
 
@@ -24,7 +26,7 @@
 [Vaadin](https://vaadin.com/) is a Java-based web framework that simplifies building **modern, interactive UIs** without requiring extensive JavaScript or frontend coding. Unlike traditional web frameworks that rely on HTML and JavaScript, **Vaadin allows developers to create full-stack applications using only Java**. It is particularly useful for business applications where maintainability and security are priorities.
 
 ### 🔹 Why Vaadin for MyTutor?
-- **Full-Stack Java development** - No need for additional frontend technologies like React or Angular.
+- **Full-stack Java development** - No need for additional frontend technologies like React or Angular.
 - **Secure & Stateful UI** - Reduces security risks by managing UI state on the server side.
 - **Rapid Prototyping** - Faster UI development with pre-built components and themes.
 - **Excellent Integration with Spring Boot** - Seamlessly connects to backend services and databases.
@@ -44,6 +46,7 @@ This project was developed as part of our **Undergraduate Computer Science Capst
 Ensure you have the following installed:
 - **Java 17**
 - **Maven** (for dependency management)
+- **MySQL** (for database setup, if running locally)
 
 ### ⚠️ Important Note
 🚫 **No active deployment**: Currently, MyTutor is not hosted online. To test the system, you will need to run it locally.
@@ -65,21 +68,32 @@ Use the following test accounts to explore different user roles:
 - **Tutors** can view schedules and sign up for tutoring sessions.
 - **Students** can sign up and apply to be tutors for courses they have completed.
 
+### 📂 Project Structure
+The project contains the following main files:
+- 📄 **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf** - Detailed project report and documentation.
+- 📦 **VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz** - Source code package.
+
 ### 📥 Installation Steps
-1. Clone the repository:
+1. Extract the source code package:
+   ```sh
+   tar -xvzf VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz
+   cd mytutor
+   ```
+2. Clone the repository (if not using the extracted folder):
    ```sh
    git clone https://gitlab.cs.uct.ac.za/capstone-elite/mytutor.git
    cd mytutor
    ```
-2. Build the project using Maven:
+3. Build the project using Maven:
    ```sh
    mvn clean install
    ```
-3. Run the application:
+4. Run the application:
    ```sh
    mvn spring-boot:run
    ```
-4. The local server will likely run on **port 37090**, but check the terminal output for confirmation. Access the application at:
+5. The local server will likely run on **port 37090**, but check the terminal output for confirmation.
+6. Access the application at:
    ```
    http://localhost:<PORT>
    ```
@@ -88,8 +102,8 @@ Use the following test accounts to explore different user roles:
 💡 **Note:** The installation process may take some time due to dependency resolution.
 
 ## 📑 Additional Documentation
-For more details on the **design process, software architecture, system diagrams, and much more**, refer to our project report:  
-📄 **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf**
+For more details on the **design process, software architecture, and system diagrams**, refer to our project report:
+📄 **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf** (included in the repository)
 
 ---
 
