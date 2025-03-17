@@ -28,7 +28,7 @@
 - **Secure & Stateful UI** - Reduces security risks by managing UI state on the server side.
 - **Rapid Prototyping** - Faster UI development with pre-built components and themes.
 - **Excellent Integration with Spring Boot** - Seamlessly connects to backend services and databases.
-- **Efficient OOP Implementation** - By leveraging Java, we ensured that **Object-Oriented Programming (OOP)** principles were efficiently applied, resulting in a modular, maintainable, and seamless UI—crucial for our project’s success.
+- **Efficient OOP Implementation** - By leveraging Java, we ensured that **Object-Oriented Programming (OOP)** principles were efficiently applied, resulting in a modular, maintainable, and seamless UI.
 
 ## 👨‍💻 Team Members
 This project was developed as part of our **Undergraduate Computer Science Capstone Project (2023)**:
@@ -79,8 +79,7 @@ Use the following test accounts to explore different user roles:
    ```sh
    mvn spring-boot:run
    ```
-4. The local server will likely run on **port 37090**, but check the terminal output for confirmation.
-5. Access the application at:
+4. The local server will likely run on **port 37090**, but check the terminal output for confirmation. Access the application at:
    ```
    http://localhost:<PORT>
    ```
