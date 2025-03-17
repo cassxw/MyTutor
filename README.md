@@ -5,6 +5,9 @@
 
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/9c61fe16-fc9b-4c64-bb57-83848e639e79)
+![image](https://github.com/user-attachments/assets/ecc8c74a-e201-4cb4-ad38-1e9755246fb7)
+![image](https://github.com/user-attachments/assets/eda1b2a5-9bb7-4929-b564-5c96bd5f10a6)
+![image](https://github.com/user-attachments/assets/7377244c-7018-4ee0-98d0-15fbb3ef8794)
 
 ### 🔹 Key Features
 - 🔐 **User Roles & Authentication** - Secure login for administrators, lecturers, tutors, and students.
