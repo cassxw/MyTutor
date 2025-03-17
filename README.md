@@ -15,6 +15,7 @@
 - 📅 **Easy-to-Use Scheduling** - Efficiently manage tutor assignments and schedules.
 - ⚙️ **Robust Admin Management** - Course convenors can monitor tutor performance and allocate responsibilities.
 - 🏗️ **Scalability & Modularity** - Designed for easy expansion and integration with existing UCT systems.
+- 🌙 **Dark Mode Support** - Users can toggle between light and dark mode for a more comfortable viewing experience.
 
 ## 🛠️ Tech Stack
 - **Java 17** - Backend logic & business rules
@@ -49,7 +50,6 @@ This project was developed as part of our **Undergraduate Computer Science Capst
 Ensure you have the following installed:
 - **Java 17**
 - **Maven** (for dependency management)
-- **MySQL** (for database setup, if running locally)
 
 ### ⚠️ Important Note
 🚫 **No active deployment**: Currently, MyTutor is not hosted online. To test the system, you will need to run it locally.
@@ -77,14 +77,13 @@ The project contains the following main files:
 - 📦 **VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz** - Source code package.
 
 ### 📥 Installation Steps
+1. Clone the repository:
+   ```sh
+   git clone https://gitlab.cs.uct.ac.za/capstone-elite/mytutor.git
+   ```
 1. Extract the source code package:
    ```sh
    tar -xvzf VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz
-   cd mytutor
-   ```
-2. Clone the repository (if not using the extracted folder):
-   ```sh
-   git clone https://gitlab.cs.uct.ac.za/capstone-elite/mytutor.git
    cd mytutor
    ```
 3. Build the project using Maven:
@@ -95,8 +94,7 @@ The project contains the following main files:
    ```sh
    mvn spring-boot:run
    ```
-5. The local server will likely run on **port 37090**, but check the terminal output for confirmation.
-6. Access the application at:
+6. The local server will likely run on **port 37090**, but check the terminal output for confirmation. Access the application at:
    ```
    http://localhost:<PORT>
    ```
