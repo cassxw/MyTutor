@@ -77,10 +77,7 @@ The project contains the following main files:
 - 📦 **VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz** - Source code package.
 
 ### 📥 Installation Steps
-1. Clone the repository:
-   ```sh
-   git clone https://gitlab.cs.uct.ac.za/capstone-elite/mytutor.git
-   ```
+1. Clone this repository:
 1. Extract the source code package:
    ```sh
    tar -xvzf VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz
@@ -103,7 +100,7 @@ The project contains the following main files:
 💡 **Note:** The installation process may take some time due to dependency resolution.
 
 ## 📑 Additional Documentation
-For more details on the **design process, software architecture, and system diagrams**, refer to our project report:
+For more details on the **design process, software architecture, and system diagrams**, refer to our project report:  
 📄 **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf** (included in the repository)
 
 ---
