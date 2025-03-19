@@ -312,8 +312,6 @@ public class UserManager {
     private static Response emailTemporaryPassword(Person user, String password) {
         //GMAIL ACCOUNT DETAILS
         //email: mytutor.capstone@gmail.com
-        //password: MYTUTORcapstoneelite123
-        //password for this app: spfexfbovajeghns
         
         // Configure email properties for Gmail
         Properties properties = new Properties();
@@ -324,7 +322,7 @@ public class UserManager {
 
         // Your Gmail email address and application-specific password
         String email = "mytutor.capstone@gmail.com";
-        String appPassword = "spfexfbovajeghns"; // Replace with your app-specific password
+        String appPassword = "spfexfbovajeghns"; // Replace with app-specific password
 
         // Create a session with Gmail authentication
         Session session = Session.getInstance(properties, new Authenticator() {
