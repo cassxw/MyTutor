@@ -75,6 +75,7 @@ Use the following test accounts to explore different user roles:
 The project contains the following main files:
 - 📄 **VWSJUL003_WLLCAS004_WLSETH003_Report.pdf** - Detailed project report and documentation.
 - 📦 **VWSJUL003_WLLCAS004_WLSETH003_code.tar.gz** - Source code package.
+- 📂 **Code Excerpts** - A separate folder containing most of our Java code files for easy demonstration and review. While the below installation steps remain the same, this folder allows for quick access to the actual code without needing to extract the compressed archive.
 
 ### 📥 Installation Steps
 1. Clone this repository:
